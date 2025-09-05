@@ -19,7 +19,7 @@ r = sr.Recognizer()
 def linkedinLogin( ):
     driver = webdriver.Chrome("//usr/local/bin/chromedriver")
     driver.get("https://www.linkedin.com/login?fromSignIn=true&trk=guest_homepage-basic_nav-header-signin")
-    user_textbox = "pandeyn14@students.ecu.edu"
+    user_textbox = "np"
     password_textbox = ""
     if not user_textbox or not password_textbox :
         speak('please enter your credentials')
